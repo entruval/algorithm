@@ -1,3 +1,8 @@
+[notes]
+  [Big O]
+    - Execution time required / time complexity or the memory space used / space complexity
+
+
 [list]
   O(1) - constant
   O(n) - linear
@@ -5,7 +10,7 @@
   O(2 ** n) - exponential
   O(n ** n) - exponential
   O(n!) - factorial
-  O(log n) - logarthmic
+  O(log n) - logarithmic
 
 
 [examples]

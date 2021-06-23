@@ -22,14 +22,14 @@ function selectionSort(array) {
 
 
 // second
+// recursion
 function nToThePowerOfM(n, m) {
   if (m == 0) { return 1 }
+
   let sum = 0
-  
   for (let i = 0; i < n; i++) {
     sum += nToThePowerOfM(n, m - 1)
   }
 
   return sum
 }
-
